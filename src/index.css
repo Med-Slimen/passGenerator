@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box{
+  padding: 30px;
+  background-color: #1F2937;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.box .text{
+  font-weight: bold;
+  
+}
+.box .text h1{
+  font-size: 35px;
+  color: white;
+}
+.box .text h1 span{
+  display: block;
+  color: #4ADF86;
+}
+.box .text p {
+  color: #777;
+}
+.box button{
+  padding: 10px 30px;
+  border: none;
+  width: 260px;
+  border-radius: 8px;
+  background-color: #4ADF86;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+}
+.box .inputs{
+display: flex;
+gap: 10px;
+flex-wrap: wrap;
+}
+.box .inputs input[type="number"]{
+  padding: 5px 10px;
+  width: 200px;
+  gap: 10px;
+
+}
+.box .inputs input[type="checkbox"]{
+  padding: 30px;
+  font-size: 30px;
+  gap: 10px;
+
+}
+.box .inputs p{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+.box .output #p1,.box .output #p2{
+  background-color: #273549;
+  text-align: center;
+  display: flex;
+  color: white;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  color: #55F991;
+}
+.box .output{
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  gap: 10px;
+  flex-wrap: wrap;
+}
